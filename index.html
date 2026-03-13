@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashanth Annaldas | Futuristic Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="cursor-glow"></div>
+    <canvas id="canvas-bg"></canvas>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <a href="#" class="logo">P<span>A</span>.dev</a>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#hackathons">Hackathons</a></li>
+            <li><a href="#coding">Profiles</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="mobile-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content reveal">
+            <h1 class="glitch-text">Hi, I'm <span>Prashanth Annaldas</span></h1>
+            <p>I am a<span class="typing-text"></span></p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn-neon">View Projects</a>
+                <a href="#contact" class="btn-neon">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-grid reveal">
+            <div class="glass glass-card">
+                <h3>Who I Am</h3>
+                <p>I'm a motivated and detail-oriented 2nd-year B.Tech student specializing in Computer Science at CMR
+                    Institute of Technology. I'm dedicated to crafting innovative software solutions.</p>
+                <div style="margin-top: 1.5rem;">
+                    <h4 style="color: var(--primary-neon);">Education</h4>
+                    <p style="font-size: 0.9rem;">Bachelor of Technology (B.Tech) - CSE</p>
+                    <p style="font-size: 0.8rem; color: var(--text-dim);">CMR Institute of Technology, Hyderabad | Aug
+                        2024 - Present</p>
+                    <p style="font-size: 0.9rem; font-weight: 600;">CGPA: 8.17 / 10</p>
+                </div>
+            </div>
+            <div class="glass glass-card">
+                <h3>Personal Strengths</h3>
+                <ul style="list-style: none; padding-top: 1rem;">
+                    <li><i class="fas fa-check-circle" style="color: var(--primary-neon);"></i> Self-motivated & Quick
+                        Learner</li>
+                    <li><i class="fas fa-check-circle" style="color: var(--secondary-neon);"></i> Strong Problem-solving
+                        Mindset</li>
+                    <li><i class="fas fa-check-circle" style="color: var(--accent-neon);"></i> Consistent &
+                        Goal-oriented</li>
+                    <li style="margin-top: 1rem;"><i class="fas fa-microchip" style="color: var(--primary-neon);"></i>
+                        365-day streak | 550+ Problems on LeetCode</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title reveal">My Skills</h2>
+        <div class="skills-container reveal">
+            <div class="glass glass-card skill-category">
+                <h3>Programming</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">JavaScript</span>
+                </div>
+            </div>
+            <div class="glass glass-card skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">React.js</span>
+                    <span class="skill-tag">Redux Toolkit</span>
+                    <span class="skill-tag">React Router</span>
+                    <span class="skill-tag">HTML / CSS</span>
+                </div>
+            </div>
+            <div class="glass glass-card skill-category">
+                <h3>Tools</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">Linux</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title reveal">Featured Projects</h2>
+        <div class="projects-grid reveal">
+            <!-- Project 1: MediGuard -->
+            <div class="glass glass-card project-card">
+                <div class="project-img" style="background-image: url('assets/projects/mediguard.png');"></div>
+                <div class="project-info">
+                    <h3>MediGuard</h3>
+                    <p>AI-Powered Hospital Capacity Management. Replaces manual logs with a QR-based digital bed
+                        tracking system and Gemini AI-driven insights.</p>
+                    <div class="project-tech">
+                        <span>#React.js</span> <span>#Node.js</span> <span>#GeminiAI</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/prashanth-annaldas/MediGaurd" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://medigaurd.vercel.app" target="_blank"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2: Civic Voice -->
+            <div class="glass glass-card project-card">
+                <div class="project-img" style="background-image: url('assets/projects/civic_voice.png');"></div>
+                <div class="project-info">
+                    <h3>Civic Voice</h3>
+                    <p>AI-Mediated Urban Governance Platform. Allows citizens to report municipal issues via geo-tagged
+                        images, classified by AI for local authorities.</p>
+                    <div class="project-tech">
+                        <span>#React.js</span> <span>#HTML5</span> <span>#Geolocation</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/prashanth-annaldas/Civic-Voice" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://civic-voice-project.vercel.app" target="_blank"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3: CineStream Neo -->
+            <div class="glass glass-card project-card">
+                <div class="project-img" style="background-image: url('assets/projects/netflix.png');"></div>
+                <div class="project-info">
+                    <h3>Mini Netflix Clone</h3>
+                    <p>Built a Netflix-style movie platform with authentication, wishlist management, and real-time
+                        movie data integration via OMDb API.</p>
+                    <div class="project-tech">
+                        <span>#React.js</span> <span>#Redux</span> <span>#OMDbAPI</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/prashanth-annaldas/FrontEnd/tree/main/React-js/Mini-Netflix-App"
+                            target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://poetic-dango-898450.netlify.app" target="_blank"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hackathon Section -->
+    <section id="hackathons">
+        <h2 class="section-title reveal">Hackathon Experience</h2>
+        <div class="blog-grid reveal">
+            <div class="glass glass-card">
+                <span style="color: var(--primary-neon); font-family: var(--font-mono); font-size: 0.8rem;">48-Hour
+                    Sprint</span>
+                <h3 style="margin: 1rem 0;">Full-Stack Sprint</h3>
+                <p>Collaborated to build a functional prototype within 48 hours. Managed frontend architecture and
+                    integrated APIs.</p>
+            </div>
+            <div class="glass glass-card">
+                <span style="color: var(--secondary-neon); font-family: var(--font-mono); font-size: 0.8rem;">Innovation
+                    Challenge</span>
+                <h3 style="margin: 1rem 0;">Real-Time Data Vis</h3>
+                <p>Developed a specialized dashboard for real-time visualization. Honored with "Best UI/UX" for
+                    intuitive design.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coding Profiles -->
+    <section id="coding">
+        <h2 class="section-title reveal">Profiles</h2>
+        <div class="profile-cards reveal">
+            <div class="glass glass-card profile-card">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+                <p>@prashanth-annaldas</p>
+                <a href="https://github.com/prashanth-annaldas" target="_blank" class="btn-neon"
+                    style="padding: 0.5rem 1rem; font-size: 0.8rem;">Explore</a>
+            </div>
+            <div class="glass glass-card profile-card">
+                <i class="fas fa-code"></i>
+                <h3>LeetCode</h3>
+                <p>550+ Problems Solved</p>
+                <a href="https://leetcode.com/u/Prashanth_annaldas" target="_blank" class="btn-neon"
+                    style="padding: 0.5rem 1rem; font-size: 0.8rem;">Profile</a>
+            </div>
+            <div class="glass glass-card profile-card">
+                <i class="fab fa-linkedin"></i>
+                <h3>LinkedIn</h3>
+                <p>Professional Network</p>
+                <a href="https://www.linkedin.com/in/prashanth-annaldas-618b10336/" target="_blank" class="btn-neon"
+                    style="padding: 0.5rem 1rem; font-size: 0.8rem;">Connect</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title reveal">Get In Touch</h2>
+        <div class="contact-container reveal glass glass-card">
+            <div class="contact-info-list" style="display: flex; flex-direction: column; gap: 2rem; align-items: center; text-align: center; padding: 1rem;">
+                <div style="text-align: center;">
+                    <h3 style="color: var(--primary-neon); margin-bottom: 0.5rem;">Let's Connect</h3>
+                    <p style="color: var(--text-dim); font-size: 0.9rem;">I'm open to collaborations and new opportunities. Feel free to reach out!</p>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 1.5rem; width: fit-content; align-items: flex-start;">
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <div style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background: rgba(0, 210, 255, 0.1); border-radius: 50%; color: var(--primary-neon);">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div style="text-align: left;">
+                            <p style="font-size: 0.8rem; color: var(--text-dim);">Email</p>
+                            <a href="mailto:prashanthannaldas453@gmail.com" style="color: var(--text-main); text-decoration: none;">prashanthannaldas453@gmail.com</a>
+                        </div>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <div style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background: rgba(157, 80, 187, 0.1); border-radius: 50%; color: var(--secondary-neon);">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div style="text-align: left;">
+                            <p style="font-size: 0.8rem; color: var(--text-dim);">Phone</p>
+                            <a href="tel:+919347979353" style="color: var(--text-main); text-decoration: none;">+91 9347979353</a>
+                        </div>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <div style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background: rgba(0, 242, 254, 0.1); border-radius: 50%; color: var(--accent-neon);">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div style="text-align: left;">
+                            <p style="font-size: 0.8rem; color: var(--text-dim);">LinkedIn</p>
+                            <a href="https://www.linkedin.com/in/prashanth-annaldas-618b10336/" target="_blank" style="color: var(--text-main); text-decoration: none;">prashanth-annaldas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="padding: 3rem 5%; border-top: 1px solid var(--glass-border); text-align: center;">
+        <div style="margin-bottom: 2rem; display: flex; justify-content: center; gap: 2rem; font-size: 1.5rem;">
+            <a href="https://github.com/prashanth-annaldas" target="_blank" style="color: var(--text-dim);"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/prashanth-annaldas-618b10336/" target="_blank"
+                style="color: var(--text-dim);"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:prashanthannaldas453@gmail.com" style="color: var(--text-dim);"><i
+                    class="fas fa-envelope"></i></a>
+        </div>
+        <p>&copy; 2026 Prashanth Annaldas. Crafted with <i class="fas fa-heart" style="color: #ff4d4d;"></i> and Code.
+        </p>
+        <a href="#" class="back-to-top"
+            style="display: block; margin-top: 1rem; color: var(--primary-neon); text-decoration: none;">Back to Top <i
+                class="fas fa-arrow-up"></i></a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
